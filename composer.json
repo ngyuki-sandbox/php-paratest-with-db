@@ -1,0 +1,16 @@
+{
+    "name": "ngyuki/example-paratest",
+    "description": "example-paratest",
+    "require-dev": {
+        "brianium/paratest": "^6.3",
+        "phpunit/phpunit": "^9.5"
+    },
+    "require": {
+        "ext-pdo": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    }
+}
